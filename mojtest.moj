@@ -1,0 +1,14 @@
+var :String test, testVar
+var :Array testArray
+var :Dictionary testDictionary
+
+push :Dictionary, testDictionary, myName, Zack
+push :Array, testArray, hello my name is Zack
+
+put $testDictionary
+put $testArray
+
+put Hi, this is a test message!
+#=> This is a comment.  This will be ignored!
+#=>put Hi, this is a message that won't appear.
+
