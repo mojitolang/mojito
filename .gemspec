@@ -2,7 +2,7 @@ require File.expand_path("./lib/version",__FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = "Mojito"
-  gem.version = Mojito::VERSION
+  gem.version = "1.0.0"
   
   gem.summary = "The Mojito language."
   gem.description = "The Mojito language."
